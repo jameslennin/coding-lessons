@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+}
+
+main {
+    padding: 40px 16px;
+}
+
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.highlight {
+    background-color: rgb(241, 205, 0);
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.skills {
+    display: flex;
+    gap: 12px;
+    max-width: 500px;
+    margin: 16px auto;
+}
+
+.skill {
+    flex: 1;
+    background-color: white;
+    padding: 16px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 16px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;
+}
+
+h1 {
+    color: #1e3a8a;
+    font-size: 20px;
+    margin: 0;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #1e3a8a;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+a:hover {
+    background-color: #1d4ed8;
+    color: white;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+@media (max-width: 480px) {
+    .skills {
+        flex-direction: column;
+    }
+}

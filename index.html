@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbars">
+        <h1 id="h1">James Lennin Sangalang</h1>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </div>
+    </nav>
+    <main>
+        <div class="card">
+            <p class="highlight">Gusto ko maging developer matagal na dahil feeling ko ang cool ko kapag marunong ako
+                mag code.</p>
+            <p>This is my first page.</p>
+            <button id="btn">Click me</button>
+        </div>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+        </div>
+    </main>
+    <script>
+        const btn = document.getElementById("btn")
+        const h1 = document.getElementById("h1")
+
+        btn.addEventListener("click", () => {
+            h1.textContent = "James Lennin Sangalang"
+            h1.style.color = "#702f8a"
+        })
+    </script>
+</body>
+
+</html>
